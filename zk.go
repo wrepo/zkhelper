@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ngaut/go-zookeeper/zk"
-	log "github.com/ngaut/logging"
+	log "github.com/golang/glog"
+	"github.com/wrepo/go-zookeeper/zk"
 )
 
 var (
